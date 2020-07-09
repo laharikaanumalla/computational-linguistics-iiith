@@ -1,0 +1,29 @@
+Heading 
+(Experiment)
+
+Buttons and it's functionalities
+ Dropdown Menu To (select one of the option)
+Then it display form a setence (Declarative and interrogative or any other type) from the given words.
+ (select the buttons in proper order)
+
+Formed sentence (after selecting words):
+"Re-form the sentence" (when the words are selected button is beging activated)
+After clicking the "RE-form the sentence" button,the words returns to the same place.
+They is other chance to reform the correct sentence (by reseleting the given button)
+
+check the correctness of ths sentence:
+By clicking the ON button
+If the sentence is correct then it display RIGHT ANSWER!!!
+If the sentence is wrong then it display   WRONG ANSWR!!!
+
+Hide the correct sentence :
+By clicking on this button is shows all possible correct answers
+
+According to my knowledge I sugguest that it is better to include one more feature.
+While selecting the button to form a correct sentence is somewhat difficult evrytime to re-form the sentence agian.
+so it to change the selected button instead of re-form the sentence.
+
+
+
+
+
