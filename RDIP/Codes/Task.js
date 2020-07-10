@@ -1,3 +1,19 @@
+
+
+
+function myFunction(){
+  var x = document.getElementById("mySelect").value;
+  document.getElementById("select").innerHTML = "Form a sentence(declarative or interrogative or any other type )from the given words";
+   document.getElementById("subselect").innerHTML = "(select the buttons in proper order)";
+}
+
+
+
+
+
+
+
+
 var sentence1=["John ate an apple before afternoon.","before afternoon John ate an apple","John before afternoon ate an apple"]
 var sentence2=["some students like to study in the night","at night some students like to study"]
 var sentence3=["John and Mary went to church","Mary and John went to church"]

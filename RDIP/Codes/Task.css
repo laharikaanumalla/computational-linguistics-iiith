@@ -1,0 +1,11 @@
+.mainpara{
+	font-weight: bold;
+    color: #0000AA;
+    font-size: 20px;
+    font-family: inherit;
+}
+.subpara{
+	color: #0000FF;
+	font-size: 20px;
+    font-family: inherit;
+}
