@@ -3,7 +3,7 @@ function doinit(){
 	document.getElementById("sentencebuttons").innerHTML=""
 	document.getElementById("heading1").style.display="none";
 	document.getElementById("formedsentence").innerHTML="";
-	//document.getElementById("reformbutton").style.display="none";
+	document.getElementById("reformbutton").style.display="none";
 	var selectedsentence ="";
 	var givensentencewords;
 	var randomwords;
@@ -66,7 +66,7 @@ $(document).on('click', '.buttonclick', function () {
     // your function here
 	var removingwords;
 	document.getElementById("heading1").style.display="block";
-	//ocument.getElementById("reformbutton").style.display="block";
+	document.getElementById("reformbutton").style.display="block";
 	 selectedsentence=selectedsentence.concat(document.getElementById($(this).attr("id")).innerHTML+" ");
 	 removingwords=givensentencewords;
 	 givensentencewords=[];
