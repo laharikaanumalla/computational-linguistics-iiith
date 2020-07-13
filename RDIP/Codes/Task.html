@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<meta charset="UTF-8">
 <head>
 <link rel = "stylesheet"
    type = "text/css"
    href = "Task.css" />
   <title>Experiment</title>
  </head>
- 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script type="text/javascript" src="C:/RDIP LAB TASKS/computational-linguistics-iiith/RDIP/Codes/Task.js"></script>
    <h2>Experiment</h2>
-<body>
+<body onload="doinit()">
      <center ><select id="mySelect" onchange="myFunction()"></center>
      <center><option value="---Select Language---"selected>---Select Language---</option></center>
      <center><option value="English">English</option></center>
@@ -18,7 +19,11 @@
 	 </br></br>
 	 <p id="select" class="mainpara"></p>
 	<center> <p id="subselect" class="subpara"></p></center>
-
+	<div id="sentencebuttons">&nbsp;
+	</div>
+	<center><p id="heading1" class="subpara">Formed Sentence (after selecting words):</p></center>
+	<div id="formedsentence" class="selectedwords"></div>
+	
 </body>
 </html>
 
