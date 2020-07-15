@@ -7,7 +7,7 @@ function doinit(){
 	document.getElementById("checkbutton").style.display="none";
 	document.getElementById("wronganwer").style.display="none";
 	document.getElementById("rightanswer").style.display="none";
-	//document.getElementById("correctansdis").innerHTML="";
+	document.getElementById("correctansdis").innerHTML="";
 	var selectedsentence ="";
 	var givensentencewords;
 	var randomwords;
@@ -148,7 +148,7 @@ function correctanswercheck(){
 		
 }
 
-function getcorrectsentence(){
+/*function getcorrectsentence(){
 	 var corsent;
 		if(generatedsentence.includes(",")){
 		corsent = generatedsentence.split(",");
@@ -159,7 +159,7 @@ function getcorrectsentence(){
 		for(var i=0;i<corsent.length;i++){
 				 document.getElementById("correctansdis").innerHTML+="<p>"+corsent[i]+"</p>";
 		}
-}
+}*/
 
 var engsentences = {"1" : "John ate an apple before afternoon.,before afternoon John ate an apple ,John before afternoon ate an apple",
 				"2": "some students like to study in the night,at night some students like to study",
