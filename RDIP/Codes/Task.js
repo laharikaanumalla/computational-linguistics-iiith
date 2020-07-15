@@ -101,6 +101,7 @@ function shuffle(array) {
 }
 
 function reformthecentnce(){
+	selectedsentence="";
 	var buttondata=randomwords;
 	givensentencewords=randomwords;
 	document.getElementById("heading1").style.display="none";
