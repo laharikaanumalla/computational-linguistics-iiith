@@ -61,13 +61,11 @@ document.getElementById("sentencebuttons").innerHTML="";
 		for(var i = 0; i< buttondata.length; i++){
 		document.getElementById("sentencebuttons").innerHTML+="<button class='buttonclick' id="+"buttonid"+i+" type ='button' value="+buttondata[i]+">"+buttondata[i]+"</button> &nbsp;";
 		}
-		//document.getElementById("sentencebuttons").innerHTML+= buttoncode
 		}
 	
 }
 }
 $(document).on('click', '.buttonclick', function () {
-    // your function here
 	var removingwords;
 	document.getElementById("heading1").style.display="block";
 	document.getElementById("reformbutton").style.display="block";
@@ -121,7 +119,7 @@ function reformthecentnce(){
 		document.getElementById("sentencebuttons").innerHTML+="<button class='buttonclick' id="+"buttonid"+i+" type ='button' value="+buttondata[i]+">"+buttondata[i]+"</button> &nbsp;";
 		}
 		 
-		//document.getElementById("sentencebuttons").innerHTML+= buttoncode
+		
 }
 
 function correctanswercheck(){
